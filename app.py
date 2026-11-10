@@ -300,7 +300,7 @@ braucht $\pi_t > 0$ für jede Regel: ohne Boden kann $\pi_t$ beliebig klein werd
 Gewichte werden bei $10^{-3}$ gekappt.
 
 **Test auf den gleichverteilten Fenstern.** Fenster aus dem Anlauf und dem Boden sind unabhängig von allen Ergebnissen
-zugeteilt; auf ihnen gilt der gewöhnliche Welch-Test. Preis: nur diese Fenster tragen Information.
+zugeteilt; auf ihnen gilt der gewöhnliche Welch-Test. Preis: nur diese Fenster enthalten Information.
 
 Implementiert in `bva_bandit.py` (Strategien), `bva_evaluation.py` (Tests, Gewichtung, Zusammenfassungen), `bva_vehicle.py`
 (Standort-Fenster), `generate_precomputed.py` (Pools und Sweeps).
